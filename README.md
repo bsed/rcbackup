@@ -1,2 +1,2 @@
 # rcbackup
-my rc. config 
+my rc. config backup
