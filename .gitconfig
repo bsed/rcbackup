@@ -1,0 +1,26 @@
+[user]
+	email = 284178359@qq.com
+	name = bsed
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[alias]
+        df = diff --color
+[push]
+	default = simple
+[format]
+	signoff = false
+[core]
+	excludesfile = /home/omer/.gitignore_global
+[url "git://github.com/ghc/packages-"]
+	insteadOf = git://github.com/ghc/packages/
+[url "http://github.com/ghc/packages-"]
+	insteadOf = http://github.com/ghc/packages/
+[url "https://github.com/ghc/packages-"]
+	insteadOf = https://github.com/ghc/packages/
+[url "ssh://git@github.com/ghc/packages-"]
+	insteadOf = ssh://git@github.com/ghc/packages/
+[url "git@github.com:/ghc/packages-"]
+	insteadOf = git@github.com:/ghc/packages/
+[url "ssh://git@git.haskell.org/"]
+	pushInsteadOf = git://git.haskell.org/
